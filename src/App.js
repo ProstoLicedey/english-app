@@ -7,11 +7,12 @@ function App() {
     })
     const onClose = () => {
         tg.close();
-        alert('123')
+        alert('Закрыто')
     }
   return (
     <div className="App">
-     <button onClick={() =>onClose}>Закрыть</button>
+        123
+     <button onClick={onClose}>Закрыть</button>
     </div>
   );
 }
