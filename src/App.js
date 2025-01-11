@@ -7,6 +7,7 @@ function App() {
     })
     const onClose = () => {
         tg.close();
+        alert('123')
     }
   return (
     <div className="App">
